@@ -7,7 +7,7 @@
 
 
 def main():
-    while True:  # loop to allow repeated calculations
+    while True:  # Loop to allow repeated calculations
         print("\nDrag Calculator")
         print("\nChoose an option:")
         print("1. Calculate Air Density")
@@ -73,11 +73,11 @@ def main():
             print("Invalid choice.")
             continue
 
-        # drag force calculation
+        # Drag Force Calculation
         Fd = 0.5 * rho * v_mps ** 2 * Cd * A_m2
         print(f"\nCalculated Drag Force: {Fd:.2f} N")
 
-        # ask to repeat
+        # Ask to repeat
         repeat_calc = input("\nDo you want to calculate again? (y/n) [default: y]: ").lower()
         if repeat_calc == '' or repeat_calc == 'y':
             continue  # repeat the loop
