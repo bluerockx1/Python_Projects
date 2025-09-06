@@ -361,3 +361,26 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment folders
+venv/
+env/
+*.env
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# VS Code settings (optional)
+.vscode/
+
+# OS generated files (Windows)
+Thumbs.db
+Desktop.ini
